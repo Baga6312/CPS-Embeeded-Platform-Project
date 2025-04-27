@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.0">
+  <diagram name="Page-1" id="GI6_GdEHRRMFqUK5z7oH">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v3BLNjad4iDH22o7wMuj-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223" y="655" width="217" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-1" value="&lt;div&gt;ESP32&amp;nbsp;&lt;/div&gt;&lt;div&gt;nodemcu&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308.27" y="670" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-2" value="Rasberry pi pico " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231.5" y="800" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-3" value="&lt;div&gt;TFT Display &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-4" value="&lt;div&gt;Wireless&amp;nbsp;&lt;/div&gt;&lt;div&gt;Antenna&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="60" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-10" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-125;" vertex="1" parent="1">
+          <mxGeometry x="204.17" y="610" width="19.76" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-11" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-125;" vertex="1" parent="1">
+          <mxGeometry x="208.27" y="622.14" width="20" height="48.93" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-12" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-125;" vertex="1" parent="1">
+          <mxGeometry x="212.29" y="632.2600000000001" width="17.71" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-13" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1 . &lt;font&gt;Collecting Data&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="622.14" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-15" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;2 . Send it to the rasberry pi for processing &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v3BLNjad4iDH22o7wMuj-18" target="v3BLNjad4iDH22o7wMuj-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="840" as="sourcePoint" />
+            <mxPoint x="270" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-20" value="3.&amp;nbsp; Calculating an estimation for the position " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="870" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-21" value="4. Print it on the Display " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="830" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3BLNjad4iDH22o7wMuj-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="v3BLNjad4iDH22o7wMuj-2" target="v3BLNjad4iDH22o7wMuj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="810" as="sourcePoint" />
+            <mxPoint x="240" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
